@@ -73,4 +73,4 @@ Utilizza `ggplot2` per creare grafici personalizzati. Assicurati di esplorare:
 ### 9. Conclusioni
 Fornisci una sintesi dei risultati ottenuti, facendo riferimento alle principali tendenze emerse e fornendo raccomandazioni basate sull'analisi.
 
-
+# Modalità di consegna: script R
