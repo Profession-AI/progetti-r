@@ -32,15 +32,10 @@ Il dataset contiene le seguenti variabili:
 ## Steps del progetto
 
 ### 1. Analisi delle variabili
-Identifica e descrivi il tipo di variabili presenti nel dataset. Valuta come gestire le variabili temporali e commenta sul tipo di analisi che può essere condotta su ciascuna variabile.
+Identifica e descrivi il tipo di variabili statistiche presenti nel dataset. Valuta come gestire le variabili che sottintendono una dimensione tempo e commenta sul tipo di analisi che può essere condotta su ciascuna variabile.
 
 ### 2. Indici di posizione, variabilità e forma
-Calcola i seguenti indici per le variabili numeriche:
-- Media, mediana, moda
-- Deviazione standard e varianza
-- Asimmetria e curtosi
-
-Crea una distribuzione di frequenza per le variabili categoriche, come `city` e `month`. Commenta i risultati ottenuti.
+Calcola Indici di posizione, variabilità e forma per tutte le variabili per le quali ha senso farlo, per le altre crea una distribuzione di frequenza. Infine, commenta tutto brevemente.
 
 ### 3. Identificazione delle variabili con maggiore variabilità e asimmetria
 Determina:
@@ -49,13 +44,10 @@ Determina:
 Spiega come sei giunto a queste conclusioni e fornisci considerazioni statistiche.
 
 ### 4. Creazione di classi per una variabile quantitativa
-Seleziona una variabile quantitativa (es. `sales` o `median_price`) e suddividila in classi. Crea una distribuzione di frequenze e rappresenta i dati con un grafico a barre. Calcola l’indice di Gini e discuti i risultati.
+Seleziona una variabile quantitativa (es. `sales` o `median_price`) e suddividila in classi. Crea una distribuzione di frequenze e rappresenta i dati con un grafico a barre. Calcola **l’indice di eterogeneità Gini** e discuti i risultati.
 
 ### 5. Calcolo della probabilità
-Calcola le seguenti probabilità:
-- Probabilità che un'immobile si trovi nella città di "Beaumont".
-- Probabilità che un'immobile sia stato venduto nel mese di Luglio.
-- Probabilità che un immobile sia stato venduto nel mese di Dicembre 2012.
+Qual è la probabilità che, presa una riga a caso di questo dataset, essa riporti la città “Beaumont”? E la probabilità che riporti il mese di Luglio? E la probabilità che riporti il mese di dicembre 2012?
 
 ### 6. Creazione di nuove variabili
 - Crea una nuova colonna che calcoli il **prezzo medio** degli immobili utilizzando le variabili disponibili.
@@ -71,6 +63,15 @@ Utilizza `ggplot2` per creare grafici personalizzati. Assicurati di esplorare:
 - Line charts per confrontare l’andamento delle vendite in periodi storici differenti.
 
 ### 9. Conclusioni
-Fornisci una sintesi dei risultati ottenuti, facendo riferimento alle principali tendenze emerse e fornendo raccomandazioni basate sull'analisi.
+Fornisci una sintesi dei risultati ottenuti, facendo riferimento alle principali tendenze emerse e fornendo raccomandazioni basate sull'analisi. Questo non è un progetto di programmazione, ma di statistica, e ci si aspetta di leggere commenti e considerazioni statistiche per i vari passaggi e risultati.
+
+### Osservazioni operative
+Alcune considerazioni:
+1. Utilizza i boxplot per confrontare la distribuzione del prezzo mediano delle case tra le varie città. Commenta il risultato.
+2. Utilizza i boxplot o qualche variante per confrontare la distribuzione del valore totale delle vendite tra le varie città ma anche tra i vari anni. Qualche considerazione da fare?
+3. Usa un grafico a barre sovrapposte per confrontare il totale delle vendite nei vari mesi, sempre considerando le città. Prova a commentare ciò che viene fuori. Già che ci sei prova anche il grafico a barre normalizzato. Consiglio: Stai attento alla differenza tra geom_bar() e geom_col(). PRO LEVEL: cerca un modo intelligente per inserire ANCHE la variabile Year allo stesso blocco di codice, senza però creare accrocchi nel grafico.
+4. Prova a creare un line chart di una variabile a tua scelta per fare confronti commentati fra città e periodi storici. Ti avviso che probabilmente all’inizio ti verranno fuori linee storte e poco chiare, ma non demordere. 
+
+Consigli: Prova inserendo una variabile per volta. Prova a usare variabili esterne al dataset, tipo vettori creati da te appositamente.
 
 # Modalità di consegna: script R
