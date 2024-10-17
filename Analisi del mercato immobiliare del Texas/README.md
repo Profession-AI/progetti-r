@@ -74,4 +74,4 @@ Alcune considerazioni:
 
 Consigli: Prova inserendo una variabile per volta. Prova a usare variabili esterne al dataset, tipo vettori creati da te appositamente.
 
-# Modalità di consegna: script R
+

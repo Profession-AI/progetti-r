@@ -77,6 +77,6 @@ Il progetto di previsione del peso neonatale è un’iniziativa fondamentale per
 
 # Dataset
 
-Link al dataset: https://drive.google.com/file/d/1ChfwftuOSH-WLIto_1AvV-_sQIksGeTq/view
+Link al dataset: [https://drive.google.com/file/d/1ChfwftuOSH-WLIto_1AvV-_sQIksGeTq/view](https://drive.google.com/file/d/1ChfwftuOSH-WLIto_1AvV-_sQIksGeTq/view)
 
-# Modalità di consegna: codice R e documento word/markdown
+
